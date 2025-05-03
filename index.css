@@ -1,0 +1,254 @@
+*{
+  border: 0;
+  margin: 0;
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.design-vertical-line {
+  position: fixed;
+  height: 40%;
+  width: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  top: 0%;
+  left: 1.5%;
+}
+.vertical-line {
+  height: 61%;
+  margin-bottom: 5%
+}
+
+.vertical-line img{
+  height: 100%;
+  width: 60%;
+}
+
+.social img {
+  height: 110%;
+}
+
+.navbar,
+body,
+.navbar select {
+  background-color: #282c33;
+  color: white;
+}
+
+.navbar {
+  margin-top: 2%;
+}
+.navbar, .menu{
+  display: flex;
+}
+
+.brand {
+  position: relative;
+  display: flex;
+  width: 20%;
+  margin-left: 13%;
+}
+
+.logo img{
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  height: 90%;
+}
+
+.logo {
+  margin-right: 3%;
+}
+
+.menu {
+  width: 100%;
+  margin-left: 20%;
+  /* align-items: center; */
+}
+
+
+.navigation-buttons{
+  display: flex;
+  margin-left: 20%;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.navigation-buttons div{
+  justify-content: space-evenly;
+}
+.navigation-buttons div a{
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.navigation-buttons div a span{
+  color: blueviolet;
+  font-size: 22px;
+}
+
+.lang-dropdown {
+  width: 25%;
+  /* margin-left: 1%; */
+}
+
+#lang {
+  font-size: 22px;
+}
+
+.home-screen {
+  display: flex;
+}
+
+.home-content{
+  width: 45%;
+  margin-top: 8%;
+  margin-left: 13%;
+  font-size: 24px;
+}
+
+.home-content p {
+  margin-top: 5%;
+}
+
+.home-content button{
+  background-color: #282c33;
+  border: solid 2px blueviolet;
+  margin-top: 5%;
+  width: 23%;
+  height: 12%
+}
+
+.home-content button:hover {
+  background-color: #483b55;
+  transition: 0.3s;
+}
+
+.home-content button a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+}
+
+.home-content h1 span {
+  color: blueviolet;
+}
+
+.threed-home-content-image {
+  margin-top: 4%;
+  width: 42%;
+} 
+
+.threed-layered-image {
+  position: relative;
+}
+
+.abstract-design {
+  height: 40%;
+  position: absolute;
+  top: 21%;
+  left: -3%;
+  z-index: -1;
+}
+
+.man-image {
+  width: 65%;
+  position: relative;
+  right: 1%;
+  z-index: 0;
+}
+
+.dots-design {
+  height: 25%;
+  position: absolute;
+  top: 62%;
+  left: 48%;
+  z-index: 1;
+}
+
+.status-box {
+  display: flex;
+  margin-top: -0.5%;
+  margin-left: 1.5%;
+  padding: 1%;
+  width: 55%;
+  border: 1px white solid;
+}
+
+.status-wording {
+  margin-left: 2%;
+  font-size: 18px;
+  display: inline-block;
+  width: 80%
+}
+
+.status-color-box {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: blueviolet;
+  border: 1px grey solid;
+  width: 4.5%;
+}
+
+.home-bottom-content {
+  position: relative;
+  margin-top: 3.5%;
+}
+
+.home-bottom-content-sub1 {
+  border: 1px white solid;
+  margin-left: 25.5%;
+  margin-right: 25.5%;
+  text-align: center;
+  padding: 1.5%;
+}
+
+.home-bottom-content-sub1 h1 {
+  font-weight: 450;
+}
+
+.home-bottom-content-sub2 {
+  border-left: 1px white solid;
+  border-right: 1px white solid;
+  border-bottom: 1px white solid;
+  margin-right: 25.5%;
+  float: right;
+  padding: 1%;
+}
+
+.home-bottom-content-sub2 h1 {
+  font-weight: 450;
+}
+
+.quote-top {
+  position: absolute;
+  font-size: 70px;
+  background-color: #282c33;
+  height: 40px;
+  left: 26%;
+  top: -25%;
+}
+
+.quote-middle {
+  position: absolute;
+  font-size: 70px;
+  background-color: #282c33;
+  height: 40px;
+  right: 26.5%;
+  bottom: -13%;
+}
+
+.rectangle-design {
+  position: absolute;
+  right: 1.5%;
+  top: 75.5%;
+}
+
+.rectangle-design img {
+  width: 130%;
+}
